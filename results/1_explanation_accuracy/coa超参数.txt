@@ -1,0 +1,5 @@
+
+FluorideCarbonyl
+GIN_3layer
+coex
+{'actor_lr': 0.0005, 'critic_lr': 0.0003, 'batch_size': 128, 'buffer_capacity': 2000, 'exploration_noise_std': 0.05, 'num_episodes_per_graph': 2, 'num_epochs': 10}

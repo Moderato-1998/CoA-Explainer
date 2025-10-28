@@ -1,0 +1,17 @@
+==================== Dataset  Information ====================
+Dataset: grid_triangle
+Number of features: 10
+Number of classes: 2
+Number of graphs: 1000
+Average number of nodes: 26.0
+Average number of edges: 55.0
+Train size: 699
+Validation size: 101
+Test size: 200
+Shuffle:True
+Device: cuda
+============================================================
+Loaded gnn from gnn\model_weights\grid_triangle_GIN_3layer.pth
+GNN type: GIN_3layer,          hidden_channels: 32,          lr: 0.001,          weight_decay: 0.0
+Load explainer: results\1_explanation_accuracy\GIN_3layer\grid_triangle\model_weights\pgex_cs=1e-05_ce=0.0003_eps=1e-16_lr=0.01.pth
+  0%|          | 0/200 [00:00<?, ?it/s]

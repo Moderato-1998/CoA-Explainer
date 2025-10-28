@@ -1,0 +1,22 @@
+==================== Dataset  Information ====================
+Dataset: Mutagenicity
+Number of features: 14
+Number of classes: 2
+Number of graphs: 1768
+Average number of nodes: 29.149886877828056
+Average number of edges: 60.83031674208145
+Train size: 1237
+Validation size: 177
+Test size: 354
+Shuffle:True
+Device: cuda
+============================================================
+Loaded gnn from gnn\model_weights\Mutagenicity_GIN_3layer.pth
+GNN type: GIN_3layer,          hidden_channels: 64,          lr: 0.01,          weight_decay: 0
+  0%|          | 0/15 [00:00<?, ?it/s] 13%|¨€¨†        | 2/15 [00:19<02:04,  9.61s/it] 27%|¨€¨€¨ƒ       | 4/15 [00:26<01:06,  6.08s/it] 40%|¨€¨€¨€¨€      | 6/15 [00:49<01:16,  8.48s/it] 47%|¨€¨€¨€¨€¨ƒ     | 7/15 [00:58<01:08,  8.60s/it] 53%|¨€¨€¨€¨€¨€¨†    | 8/15 [00:58<00:46,  6.57s/it] 67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 10/15 [01:00<00:21,  4.21s/it] 80%|¨€¨€¨€¨€¨€¨€¨€¨€  | 12/15 [01:29<00:24,  8.04s/it]100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 15/15 [02:11<00:00, 10.74s/it]100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 15/15 [02:11<00:00,  8.79s/it]
+Average GEA: 0.0
+Average GEF: 1.0
+Average fid+: 0.0
+Average fid-: 1.0
+Average sparsity: 1.0
+Average time pre graph: 16.45829862356186

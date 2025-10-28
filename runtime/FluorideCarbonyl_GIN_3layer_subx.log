@@ -1,0 +1,22 @@
+==================== Dataset  Information ====================
+Dataset: FluorideCarbonyl
+Number of features: 14
+Number of classes: 2
+Number of graphs: 8671
+Average number of nodes: 21.35832083958021
+Average number of edges: 45.36593241840618
+Train size: 6069
+Validation size: 868
+Test size: 1734
+Shuffle:True
+Device: cuda
+============================================================
+Loaded gnn from gnn\model_weights\FluorideCarbonyl_GIN_3layer.pth
+GNN type: GIN_3layer,          hidden_channels: 128,          lr: 0.003,          weight_decay: 0.0001
+  0%|          | 0/15 [00:00<?, ?it/s] 53%|¨€¨€¨€¨€¨€¨†    | 8/15 [00:05<00:05,  1.37it/s]100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 15/15 [00:05<00:00,  2.56it/s]
+Average GEA: 0.0
+Average GEF: 0.9999999894488312
+Average fid+: 0.0
+Average fid-: 1.0
+Average sparsity: 0.5200000107288361
+Average time pre graph: 5.824714660644531

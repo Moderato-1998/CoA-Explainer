@@ -1,0 +1,22 @@
+==================== Dataset  Information ====================
+Dataset: AlkaneCarbonyl
+Number of features: 14
+Number of classes: 2
+Number of graphs: 1125
+Average number of nodes: 21.354666666666667
+Average number of edges: 45.28888888888889
+Train size: 787
+Validation size: 113
+Test size: 225
+Shuffle:True
+Device: cuda
+============================================================
+Loaded gnn from gnn\model_weights\AlkaneCarbonyl_GIN_3layer.pth
+GNN type: GIN_3layer,          hidden_channels: 64,          lr: 0.001,          weight_decay: 0.0001
+  0%|          | 0/15 [00:00<?, ?it/s] 13%|¨€¨†        | 2/15 [00:01<00:09,  1.43it/s] 33%|¨€¨€¨€¨†      | 5/15 [00:04<00:08,  1.17it/s] 40%|¨€¨€¨€¨€      | 6/15 [00:07<00:12,  1.38s/it] 53%|¨€¨€¨€¨€¨€¨†    | 8/15 [00:10<00:10,  1.47s/it] 60%|¨€¨€¨€¨€¨€¨€    | 9/15 [00:14<00:12,  2.03s/it] 67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 10/15 [00:17<00:11,  2.21s/it] 93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 14/15 [00:20<00:01,  1.35s/it]100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 15/15 [00:20<00:00,  1.34s/it]
+Average GEA: 0.02040816326457726
+Average GEF: 0.8581513761903479
+Average fid+: 0.2857142857142857
+Average fid-: 0.8571428571428571
+Average sparsity: 0.8688379472919873
+Average time pre graph: 2.8499175821031844
